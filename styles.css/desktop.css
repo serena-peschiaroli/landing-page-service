@@ -1,0 +1,34 @@
+@media screen and (min-width:1024px) {
+
+    .line {
+            left: 771%;
+            top: 22px;
+        }
+
+        .left .item-icon {
+            left: 104%;
+        }
+
+        .left {
+            left: -34%;
+        }
+
+        .right {
+            right: -72%;
+        }
+
+        .right .item-icon {
+            left: -2%;
+        }
+
+
+        .left::after {
+            left: 98%;
+        }
+
+        .right::after {
+            left: 44px;
+        }
+    
+    
+}

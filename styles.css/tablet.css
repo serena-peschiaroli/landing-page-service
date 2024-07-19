@@ -1,0 +1,21 @@
+@media screen and (min-width:768px){
+    .line {
+            left: 100%;
+        }
+    
+        .item-icon {
+    
+            left: -8%;
+        }
+    
+        .right::after {
+            left: 55px;
+    
+        }
+    
+        .left::after {
+    
+            left: 55px;
+        }
+
+}

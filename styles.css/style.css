@@ -50,7 +50,7 @@ body {
 
 .vr {
     color: #ec6c5b;
-    width: 4px;
+    border: 10px;
 }
 
 .steps-timeline {
@@ -73,20 +73,18 @@ body {
     font-size: 1.2rem;
     text-align: center;
     position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: -25px;
+    left: -18%;
+    top: -12px;
+ 
+    
     background: #ec6c5b;
     border: 3px solid #ffffff;
     border-radius: 50%;
-    z-index: 100;
+    z-index: -1;
 }
 
 .timeline-panel {
     position: relative;
-    width: 46%;
-    float: left;
-    padding: 20px;
     border: 1px solid #d4d4d4;
     background: #ffffff;
     border-radius: 2px;
@@ -95,8 +93,12 @@ body {
 
 .timeline-heading h4 {
     margin-top: 0;
-    color: #ec6c5b;
+    color: white;
+    padding: 10px;
+    background-color: #ec6c5b;
 }
+
+
 
 .btn-custom {
     background: #4cc083;
@@ -106,7 +108,7 @@ body {
     border-radius: 20px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .timeline-panel {
         width: 86%;
         float: none;
@@ -122,8 +124,79 @@ body {
         left: -6%;
         margin-left: 0;
     }
-}
+} */
 
 #cta {
     background-color: peachpuff;
+
+    min-height: 500px;
 }
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: start;
+
+
+}
+
+.line{
+    position: relative;
+    left: 27%;
+    top: 15px;
+    width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: translate(-50%);
+    background-color: #ec6c5b;
+
+}
+
+
+
+.card {
+
+    top: 70px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.left {
+    position: relative;
+    left: auto
+}
+
+.right {
+    position: relative;
+    left: auto;
+}
+
+.left::after,
+.right::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #ec6c5b;
+    border-radius: 0px 10px;
+    transform: rotate(320deg);
+    z-index: -1;
+}
+
+.left::after {
+    top: 13px;
+    left: 28px;
+}
+
+.right::after {
+    top: 13px; 
+    left: 28px;
+}
+
+

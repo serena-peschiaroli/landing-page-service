@@ -7,6 +7,8 @@
     <title>Coding Clown</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css/style.css">
+    <link rel="stylesheet" href="styles.css/tablet.css">
+    <link rel="stylesheet" href="styles.css/desktop.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -481,14 +483,16 @@
         <!-- Steps Section -->
         <section id="steps" class="section">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-2 d-flex">
-                        <div class="vr"></div>
+                <div class="row align-items-stretch w-100">
+                    <div class="col-1 d-flex offset-1 align-items-stretch">
+                    <div class="line">
+                    
                     </div>
-                    <div class="col-6">
+                    </div>
+                    <div class="col custom-col h-100">
                         <ul class="steps-timeline">
-                            <li class="timeline-item">
-                                <div class="item-icon">
+                            <li class="timeline-item left">
+                                <div class="item-icon icon-left">
                                     <svg width="24" height="24">
                                         <use xlink:href="#handshake"></use>
                                     </svg>
@@ -504,8 +508,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="timeline-item">
-                                <div class="item-icon">
+                            <li class="timeline-item right">
+                                <div class="item-icon icon-right">
                                     <svg width="24" height="24">
                                         <use xlink:href="#youtube"></use>
                                     </svg>
@@ -520,8 +524,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="timeline-item">
-                                <div class="item-icon">
+                            <li class="timeline-item left">
+                                <div class="item-icon icon-left">
                                     <svg width="24" height="24">
                                         <use xlink:href="#instagram"></use>
                                     </svg>
@@ -541,6 +545,7 @@
 
                     </div>
                 </div>
+              
 
             </div>
                         
