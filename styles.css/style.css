@@ -19,6 +19,21 @@ body {
     width: 100%;
 }
 
+.header-top{
+    min-height: 2.5rem;
+    background-color: #ec6c5b;
+}
+
+.header-top p{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.header-top a{
+    color: white;
+}
+
 .section {
     margin: 20px 0;
 }
