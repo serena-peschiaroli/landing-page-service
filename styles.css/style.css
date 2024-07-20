@@ -4,9 +4,44 @@ body {
 }
 
 #banner {
-    min-height: 500px;
-    border: 1px solid black;
-    background-color: peachpuff;
+    
+
+    background-image: url('../img/billboard-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between
+ 
+}
+#banner p{
+    line-height: 1;
+}
+
+#banner form{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+#banner input{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+}
+
+#banner .btn{
+    position: relative;
+    right: 12%;
+    border-radius: 10px;
+    margin: 5px 0;
+
+}
+
+#banner img{
+    max-width: 100%;
 }
 
 #reviews {
