@@ -44,6 +44,19 @@ body {
     max-width: 100%;
 }
 
+#cards .box-shadow{
+
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: none;
+}
+
+.box-shadow h5, p{
+    text-transform: uppercase;
+}
+
 #reviews {
     min-height: 500px;
     border: 1px solid black;
